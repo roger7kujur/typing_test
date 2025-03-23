@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container-box">
+            <h1>Typing Test</h1>
+            <div class="typing-test">
+                <p>Type the following sentence:</p>
+                <p>"The quick brown fox jumps over the lazy dog."</p>
+                <input type="text" class="input-field" placeholder="Start typing here...">
+                <button id="submit-btn">Submit</button>
+                <div class="result-details">
+                    <h2>Your Results:</h2>
+                    <ul class="result-container">
+                        <li>
+                            <p>Words Typed:</p>
+                            <span id="words-typed">0</span>
+                        </li>
+                        <li>
+                            <p>Accuracy:</p>
+                            <span id="accuracy">100%</span>
+                        </li>
+                        <li>
+                            <p>Time Taken:</p>
+                            <span id="time-taken">0s</span>
+                        </li>
+                    </ul>
+                </div>
+                <button id="restart-btn">Restart</button>
+                <p>Good luck!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
